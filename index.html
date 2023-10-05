@@ -4,29 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trace Route</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-  <video class="bgvideo" src="assets/back2.mp4" autoplay loop playsinline muted></video>
+<body class="main">
 
-  <header class="viewport-header">
-    <h1>
-      Locate the
-      <span>Server</span>
-    </h1>
-  </header>
+<div>
+    <div class="display">
+        <video playsinline autoplay muted loop poster="" id="bgvid">
+            <source src="assets/back2.mp4" type="video/mp4">
+        </video>
 
- 
 
-  <main>
-    <ul>
-      <li><a href="mumbai.html" class="button1">49.44.220.240 </a></li>
-      <li><a href="DC.html" class="button1"> 100.41.23.66</a></li>
-      <li><a href="seattle.html" class="button1">52.93.135.100</a></li>
+    </div>
+
+
+
+    
+    <header class="viewport-header">
+        <h1>
+          Locate
+          <span>the Server</span>
+        </h1>
+
+        
+      </header>
+
+      <div style="padding:20px" colo>
+        <h2>Overlay with Text</h2>
+        <button onclick="on()">Find</button>
+      </div>
+
+     
       
-    </ul>
-  </main>
 
+</div>
+    
 </body>
 </html>
